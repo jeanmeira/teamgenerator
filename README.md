@@ -7,6 +7,14 @@ Currently, it's designed to support 2 teams of 5 players. The exceeding players 
 
 In the future, there will be support for more sports (that do not require exactly 5 players on each), different category of players (for instance, goalkeepers).
 
+# Technology
+This project is very simple. All we use is:
+
+- HTML 5
+- Javascript
+- JQuery
+- Bootstrap
+
 # Origin
 This project was born in a software company located in Sorocaba, Brazil, when the members of a project decided to exercise a little bit and play a weekly soccer.
 

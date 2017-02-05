@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Team Generator</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <div class="content">
+        <h1>Team Generator</h1>
+        <div class="row-fluid">
+          <div class="col-md-6">
+            <h3>Squads</h3>
+            <table class="table table-bordered table-striped" id="tb-teams">
+              <thead>
+                <tr>
+                  <th>Player</th>
+                  <th>Category</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+            <button type="button" id="btn-sort" class="btn btn-success pull-right">Sortear</button>
+          </div>
+          <div class="col-md-6">
+            <div class="row-fluid">
+              <h3>Insert/Edit Player</h3>
+              <form action="#" method="post" id="frm-player">
+                <div class="form-group">
+                  <label for="player-name">Player Name</label>
+                  <input type="text" class="form-control" id="txt-player-name" placeholder="Player Name">
+                </div>
+                <div class="form-group">
+                  <label for="cbo-category">Category</label>
+                  <select id="cbo-category" class="form-control">
+                    <option value="Gold">Gold</option>
+                    <option value="Silver">Silver</option>
+                    <option value="Wood">Wood</option>
+                  </select>
+                </div>
+                <button type="submit" id="btn-save" class="btn btn-default pull-right">Save Player</button>
+              </form>
+          </div>
+          <div class="row-fluid">
+            <h3>Player List</h3>
+            <table class="table table-bordered table-striped" id="tb-player-list">
+              <thead>
+                <tr>
+                  <th>Player Name</th>
+                  <th>Category</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          </div>
+        </div>
+      </div>
+  </body>
+  <script src="script.js"></script>
+</html>
