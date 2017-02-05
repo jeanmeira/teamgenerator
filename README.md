@@ -15,6 +15,11 @@ This project is very simple. All we use is:
 - JQuery
 - Bootstrap
 
+# Demo
+You can use our page to generate your teams!
+
+https://jeanmeira.github.io/teamgenerator/
+
 # Origin
 This project was born in a software company located in Sorocaba, Brazil, when the members of a project decided to exercise a little bit and play a weekly soccer.
 
